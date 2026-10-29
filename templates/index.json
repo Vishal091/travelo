@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -11,8 +20,7 @@
         "primary_link": "/products/shower-drain-hair-catcher-kit",
         "secondary_label": "Our approach",
         "secondary_link": "#how-it-works",
-        "note": "Useful by design. Simple by nature.",
-        "product": "shower-drain-hair-catcher-kit"
+        "note": "Useful by design. Simple by nature."
       }
     },
     "featured_product": {

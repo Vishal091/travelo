@@ -1,1 +1,25 @@
-{"sections":{"main":{"type":"main-contact","settings":{"heading":"Let's sort it out.","intro":"<p>Questions about fit, shipping or an order? Send us a message using the form. A real monitored support email must be configured in Shopify before launch.</p>","button_label":"Send message","success_message":"Thanks for your message. We'll be in touch."}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "settings": {
+        "heading": "Let's sort it out.",
+        "intro": "<p>Questions about fit, shipping or an order? Send us a message using the form. A real monitored support email must be configured in Shopify before launch.</p>",
+        "button_label": "Send message",
+        "success_message": "Thanks for your message. We'll be in touch."
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
