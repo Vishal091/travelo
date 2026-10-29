@@ -1,1 +1,79 @@
-{"sections":{"main":{"type":"main-product","settings":{"show_vendor":false,"show_sku":false,"show_description":true,"show_share":false}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_description": true,
+        "show_share": false
+      }
+    },
+    "shipping_returns": {
+      "type": "shipping-returns",
+      "settings": {
+        "eyebrow": "Clear information before you buy",
+        "heading": "Know what to expect.",
+        "intro": "<p>Shipping estimates and return conditions depend on destination and fulfilment. Review the policies before checkout.</p>"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "p1": {
+          "type": "faq",
+          "settings": {
+            "question": "Will it fit every shower drain?",
+            "answer": "<p>Not necessarily. Drain designs and dimensions vary. Please check the exact size and compatibility information before ordering.</p>"
+          }
+        },
+        "p2": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I use and clean it?",
+            "answer": "<p>Follow the product instructions supplied with the exact variant. Remove collected hair and rinse only as directed.</p>"
+          }
+        },
+        "p3": {
+          "type": "faq",
+          "settings": {
+            "question": "How long does delivery take?",
+            "answer": "<p>Delivery estimates depend on destination and fulfilment route. Please check the shipping policy and checkout estimate for your address.</p>"
+          }
+        },
+        "p4": {
+          "type": "faq",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>Read the Returns & Refunds Policy for the return window and eligibility. Contact support before sending anything back.</p>"
+          }
+        },
+        "p5": {
+          "type": "faq",
+          "settings": {
+            "question": "What if the product is damaged or wrong?",
+            "answer": "<p>Contact support promptly with your order number and photos of the item and packaging. We'll review the issue under the published policy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5"
+      ],
+      "settings": {
+        "eyebrow": "Product support",
+        "heading": "Before you order.",
+        "intro": "<p>These answers are general guidance. Exact measurements, material and care instructions should be confirmed against the supplier sample.</p>",
+        "open_first": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shipping_returns",
+    "faq"
+  ]
+}

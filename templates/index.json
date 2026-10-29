@@ -4,13 +4,13 @@
       "type": "hero",
       "settings": {
         "eyebrow": "A little easier, every day",
-        "heading": "Thoughtful tools for everyday living",
-        "text": "<p>Practical home essentials for the little tasks that repeat.</p>",
+        "heading": "Less drain drama. More easy mornings.",
+        "text": "<p>Practical home essentials for the little tasks that repeat. Start with a simpler shower-cleanup routine.</p>",
         "badge": "Designed for everyday routines",
-        "primary_label": "Shop essentials",
-        "primary_link": "shopify://collections/all",
+        "primary_label": "Shop the shower catcher",
+        "primary_link": "/products/shower-drain-hair-catcher-kit",
         "secondary_label": "Our approach",
-        "secondary_link": "#our-approach",
+        "secondary_link": "#how-it-works",
         "note": "Useful by design. Simple by nature.",
         "product": "shower-drain-hair-catcher-kit"
       }
@@ -31,22 +31,22 @@
         "column_1": {
           "type": "column",
           "settings": {
-            "heading": "Made for everyday life",
-            "text": "<p>Simple household helpers for repeat routines.</p>"
+            "heading": "Help catch loose hair",
+            "text": "<p>Designed to collect loose hair near a compatible drain.</p>"
           }
         },
         "column_2": {
           "type": "column",
           "settings": {
-            "heading": "Easy to understand",
-            "text": "<p>Clear product details to help you choose with confidence.</p>"
+            "heading": "A simple cleanup step",
+            "text": "<p>Remove collected hair and rinse according to the product instructions.</p>"
           }
         },
         "column_3": {
           "type": "column",
           "settings": {
-            "heading": "Practical by design",
-            "text": "<p>Useful details, straightforward instructions and honest claims.</p>"
+            "heading": "Check your drain first",
+            "text": "<p>Drain shapes and measurements vary. Check compatibility before ordering.</p>"
           }
         }
       },
@@ -57,8 +57,8 @@
       ],
       "settings": {
         "eyebrow": "Keep it simple",
-        "heading": "Thoughtful tools. Everyday usefulness.",
-        "text": "<p>Small, practical products for the routines you already have.</p>"
+        "heading": "A simpler shower-cleanup routine.",
+        "text": "<p>Clear product details. A straightforward routine. No promises the product cannot keep.</p>"
       }
     },
     "approach": {
@@ -66,16 +66,90 @@
       "settings": {
         "eyebrow": "Our approach",
         "heading": "Useful by design. Simple by nature.",
-        "text": "<p>We believe everyday products should be easy to understand, practical to use and honest about what they can do.</p>",
+        "text": "<p>We believe everyday products should be practical, clearly described and honest about what they can do.</p>",
         "button_label": "Shop all",
         "button_link": "shopify://collections/all"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "q1": {
+          "type": "faq",
+          "settings": {
+            "question": "Will it fit every shower drain?",
+            "answer": "<p>Not necessarily. Drain designs and dimensions vary. Check the exact product measurements and compatibility information before ordering.</p>"
+          }
+        },
+        "q2": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I clean the catcher?",
+            "answer": "<p>Remove collected hair and rinse the catcher according to the product's verified care instructions.</p>"
+          }
+        },
+        "q3": {
+          "type": "faq",
+          "settings": {
+            "question": "Does it guarantee my drain will never clog?",
+            "answer": "<p>No. It is intended to help collect loose hair, but it cannot prevent every blockage or replace routine drain maintenance.</p>"
+          }
+        },
+        "q4": {
+          "type": "faq",
+          "settings": {
+            "question": "How long will shipping take?",
+            "answer": "<p>Delivery time depends on your destination and fulfilment route. Check the shipping policy and the delivery estimate shown at checkout before ordering.</p>"
+          }
+        },
+        "q5": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I return my order?",
+            "answer": "<p>Review the current Returns & Refunds Policy for the return window, eligibility, and instructions. Contact support before mailing a return.</p>"
+          }
+        },
+        "q6": {
+          "type": "faq",
+          "settings": {
+            "question": "What if my order arrives damaged or incorrect?",
+            "answer": "<p>Contact support promptly with your order number and clear photos of the item and packaging so we can review the issue under the published policy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6"
+      ],
+      "settings": {
+        "eyebrow": "Good to know",
+        "heading": "Questions, answered.",
+        "intro": "<p>Review product compatibility and store policies before placing an order.</p>",
+        "open_first": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter-signup",
+      "settings": {
+        "eyebrow": "The occasional useful note",
+        "heading": "Make room for easier routines.",
+        "text": "<p>Sign up for practical home tips and product updates. Unsubscribe at any time.</p>",
+        "button_label": "Sign me up",
+        "success_text": "Thanks for signing up.",
+        "disclaimer": "By subscribing, you agree to receive email updates. See our"
       }
     }
   },
   "order": [
     "hero",
-    "featured_product",
     "how_it_works",
-    "approach"
+    "featured_product",
+    "approach",
+    "faq",
+    "newsletter"
   ]
 }
