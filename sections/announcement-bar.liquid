@@ -1,0 +1,2 @@
+{% if settings.announcement_text != blank %}<div class="announcement-bar"><div class="page-width">{{ settings.announcement_text | escape }}</div></div>{% endif %}
+{% schema %}{"name":"Announcement bar","settings":[],"presets":[{"name":"Announcement bar"}]}{% endschema %}
