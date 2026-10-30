@@ -14,13 +14,14 @@
       "settings": {
         "eyebrow": "A little easier, every day",
         "heading": "Less drain drama. More easy mornings.",
-        "text": "<p>Practical home essentials for the little tasks that repeat. Start with a simpler shower-cleanup routine.</p>",
+        "text": "<p>A practical shower accessory designed to collect loose hair near a compatible drain, so routine cleanup is easier to see and manage.</p>",
         "badge": "Designed for everyday routines",
         "primary_label": "Shop the shower catcher",
         "primary_link": "/products/shower-drain-hair-catcher-kit",
-        "secondary_label": "Our approach",
+        "secondary_label": "How it works",
         "secondary_link": "#how-it-works",
-        "note": "Useful by design. Simple by nature."
+        "note": "Check your drain shape and measurements before ordering.",
+        "product": "shower-drain-hair-catcher-kit"
       }
     },
     "featured_product": {
@@ -75,8 +76,8 @@
         "eyebrow": "Our approach",
         "heading": "Useful by design. Simple by nature.",
         "text": "<p>We believe everyday products should be practical, clearly described and honest about what they can do.</p>",
-        "button_label": "Shop all",
-        "button_link": "shopify://collections/all"
+        "button_label": "Shop the shower catcher",
+        "button_link": "/products/shower-drain-hair-catcher-kit"
       }
     },
     "faq": {
@@ -107,14 +108,14 @@
           "type": "faq",
           "settings": {
             "question": "How long will shipping take?",
-            "answer": "<p>Delivery time depends on your destination and fulfilment route. Check the shipping policy and the delivery estimate shown at checkout before ordering.</p>"
+            "answer": "<p>Delivery times, shipping charges and tracking depend on your destination and fulfilment route. Check the Shipping Policy and checkout estimate before ordering.</p>"
           }
         },
         "q5": {
           "type": "faq",
           "settings": {
-            "question": "Can I return my order?",
-            "answer": "<p>Review the current Returns & Refunds Policy for the return window, eligibility, and instructions. Contact support before mailing a return.</p>"
+            "question": "What is your return policy?",
+            "answer": "<p>Review the Returns & Refunds Policy for the request window, eligibility, costs and instructions. Contact support before sending an item back.</p>"
           }
         },
         "q6": {
@@ -145,10 +146,18 @@
       "settings": {
         "eyebrow": "The occasional useful note",
         "heading": "Make room for easier routines.",
-        "text": "<p>Sign up for practical home tips and product updates. Unsubscribe at any time.</p>",
+        "text": "<p>Sign up for product updates and practical home tips. You can unsubscribe at any time.</p>",
         "button_label": "Sign me up",
         "success_text": "Thanks for signing up.",
         "disclaimer": "By subscribing, you agree to receive email updates. See our"
+      }
+    },
+    "shipping_returns": {
+      "type": "shipping-returns",
+      "settings": {
+        "eyebrow": "Before you order",
+        "heading": "Clear information. No checkout surprises.",
+        "intro": "<p>Review destination coverage, delivery estimates and return conditions before purchasing. The live store must show verified terms for your location.</p>"
       }
     }
   },
@@ -157,6 +166,7 @@
     "how_it_works",
     "featured_product",
     "approach",
+    "shipping_returns",
     "faq",
     "newsletter"
   ]

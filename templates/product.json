@@ -15,7 +15,8 @@
         "show_vendor": false,
         "show_sku": false,
         "show_description": true,
-        "show_share": false
+        "show_share": false,
+        "product_blurb": "Helps collect loose hair near compatible drains. Check your drain shape and measurements before ordering."
       }
     },
     "shipping_returns": {
@@ -23,7 +24,7 @@
       "settings": {
         "eyebrow": "Clear information before you buy",
         "heading": "Know what to expect.",
-        "intro": "<p>Shipping estimates and return conditions depend on destination and fulfilment. Review the policies before checkout.</p>"
+        "intro": "<p>Delivery estimates and return conditions depend on your location and fulfilment route. Review the policies before checkout.</p>"
       }
     },
     "faq": {
